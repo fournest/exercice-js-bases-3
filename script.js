@@ -124,7 +124,7 @@ console.log(`le resultat de ${a} ${operation} ${b} est ${resultat}`);
 
 // exercice 13
 
-const tableauNombres = [12, 45, 3, 22, 34];
+let tableauNombres = [12, 45, 3, 22, 34];
 let lePlusGrandNombre = 0
 
 for (let i = 1; i < tableauNombres.length; i++) {
@@ -135,4 +135,6 @@ for (let i = 1; i < tableauNombres.length; i++) {
 }
 
 console.log(`Le plus grand nombre est ${lePlusGrandNombre}`);
+
+
 
