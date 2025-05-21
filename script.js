@@ -120,4 +120,19 @@ switch (operation) {
         resultat = a / b;
         break;
 }
-console.log(`le resultat de ${a} ${operation} ${b} est ${resultat}`)
+console.log(`le resultat de ${a} ${operation} ${b} est ${resultat}`);
+
+// exercice 13
+
+const tableauNombres = [12, 45, 3, 22, 34];
+let lePlusGrandNombre = 0
+
+for (let i = 1; i < tableauNombres.length; i++) {
+    if (tableauNombres[i] > lePlusGrandNombre) {
+        lePlusGrandNombre = tableauNombres[i];
+    }
+    
+}
+
+console.log(`Le plus grand nombre est ${lePlusGrandNombre}`);
+
